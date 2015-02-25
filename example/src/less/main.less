@@ -1,0 +1,23 @@
+/* material-ui */
+@import "node_modules/material-ui/src/less/scaffolding.less";
+
+//Define a custom less file to override any variables defined in scaffolding.less
+@import "custom-overrides.less";
+
+@import "node_modules/material-ui/src/less/components.less";
+
+//Your custom app styles
+.g-fruitmain {
+  text-align: center;
+}
+.u-act{background-color:@accent-1-color}
+.f-hide{display:none}
+.g-content{}
+.g-header{width:100%;margin:0 auto;height:60px}
+.m-wrapper{width:1000px;height:300px;margin:10px auto}
+.m-conent{width:180px;height:320px;border:1px solid #ccc;float:left;margin-left:20px;}
+.g-footer{width:100%;height:45px;position:fixed;bottom:0;border-top:1px solid @accent-1-color;
+	ul{width:100%;height:100%;list-style:none;li{display:inline-block;width:25%;height:45px;line-height:45px;text-align:center}}
+
+}
+.u-icon{vertical-align: middle;}
